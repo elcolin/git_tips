@@ -18,6 +18,7 @@ Then it's important to pull from the wanted branch:
     git pull team ecolin
 
 **NOT MANDATORY**
+Does not work if there is a name mismatch
 Then you can create a tracking relationship between your main branch on your personal repo and your branch on the team repo:
 
     git branch --set-upstream-to=team/ecolin main
