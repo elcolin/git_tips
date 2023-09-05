@@ -37,4 +37,4 @@ To push on your base repo:
 ## Launch Docker
 On **Linux**
 
-        sudo systemctl start docker
+    sudo systemctl start docker
