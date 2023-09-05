@@ -27,8 +27,8 @@ You won't have to specify the remote each time you push.
 
 To push on your team repo and branch:
 
-        git push team HEAD:ecolin
+    git push team HEAD:ecolin
 
 To push on your base repo:
 
-        git push origin
+    git push origin
