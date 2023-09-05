@@ -1,4 +1,4 @@
-# git_tips
+# git
 Tips and use of git.
 
 ## Remote
@@ -32,3 +32,9 @@ To push on your team repo and branch:
 To push on your base repo:
 
     git push origin
+
+# Docker
+## Launch Docker
+On **Linux**
+
+        sudo systemctl start docker
