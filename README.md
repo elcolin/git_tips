@@ -68,7 +68,15 @@ On **Linux**
      rm  ~/.docker/config.json
 
 # CPP
-
+## Coplien Form
+    class T
+    {
+        public:
+            T (); // Constructeur par défaut
+            T (const T&); // Constructeur de recopie
+            ~T (); // Destructeur éventuellement virtuel
+            T &operator=(const T&); // Operator d'affectation
+    };
 ## References
 Use references when you want to avoid copying data and work on the original object:
 
