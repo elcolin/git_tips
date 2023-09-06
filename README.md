@@ -129,7 +129,11 @@ Use const to indicate that the function won't modify the object, allowing you to
     };
 
 # Shell
+## Treat an output as file
+    <(...)
+Example:
 
+    <(./a.out)
 ## diff
 Displaying the differences between two files:
 
