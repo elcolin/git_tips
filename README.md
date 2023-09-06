@@ -68,3 +68,10 @@ On **Linux**
      rm  ~/.docker/config.json
 
 # CPP
+
+## References
+Use references when you want to avoid copying data and work on the original object:
+
+    void modifyValue(int& x) {
+        x = x * 2;
+    }
