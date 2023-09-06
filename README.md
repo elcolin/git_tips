@@ -112,7 +112,7 @@ Use const to indicate that the function won't modify the object, allowing you to
         {
             return ("Basic Exception");
         }
-    }
+    };
 
 ### exception with custom message
 
