@@ -131,6 +131,9 @@ Use const to indicate that the function won't modify the object, allowing you to
 # Shell
 
 ## diff
-Displaying the difference between two files:
+Displaying the differences between two files:
 
     diff file1.txt file2.txt
+Displaying the differences between an output and a text file:
+
+    diff <(./a.out) output.txt
