@@ -76,7 +76,16 @@ Use references when you want to avoid copying data and work on the original obje
         x = x * 2;
     }
 ## const
+### const variables
 Use const when you want to guarantee the object won't be modified.
+
+    void printValue(const int& x) {
+        // x cannot be modified within this function
+        std::cout << x << std::endl;
+    }
+
+### const function members
+Use const to indicate that the function won't modify the object, allowing you to call you function on const objects.
 
     class MyClass {
     public:
@@ -86,3 +95,4 @@ Use const when you want to guarantee the object won't be modified.
     private:
         int data;
     };
+
