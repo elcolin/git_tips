@@ -75,3 +75,14 @@ Use references when you want to avoid copying data and work on the original obje
     void modifyValue(int& x) {
         x = x * 2;
     }
+## const
+Use const when you want to guarantee the object won't be modified.
+
+    class MyClass {
+    public:
+        int getValue() const {
+            return data;
+        }
+    private:
+        int data;
+    };
