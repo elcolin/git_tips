@@ -105,17 +105,25 @@ Use const to indicate that the function won't modify the object, allowing you to
     };
     
 ## exception
+### basic exception
+    class BasicException : public std::exception
+    {
+        const char *what() const throw()
+        {
+            return ("Basic Exception");
+        }
+    }
 
 ### exception with custom message
 
     class NewException : public std::exception
-        {
-            private:
-                const char  *msg;
-            public:
-                NewException(const char *msg) : msg(msg) {}
-                virtual const char* what() const throw()
-                {
-                    return msg;
-                }
-        };
+    {
+        private:
+            const char  *msg;
+        public:
+            NewException(const char *msg) : msg(msg) {}
+            virtual const char* what() const throw()
+            {
+                return msg;
+            }
+    };
