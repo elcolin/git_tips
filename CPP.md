@@ -82,3 +82,11 @@ Use const to indicate that the function won't modify the object, allowing you to
         shapePtr = &circle;
         shapePtr->draw(); // Calls the draw() method of Circle
     }
+
+### Pure method
+If a class contains a **pure virtual function** it will create a **Abstract class**.
+
+    class AbstractClass {
+    public:
+        virtual void pureVirtualFunction() = 0; // Pure virtual function
+    };
