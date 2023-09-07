@@ -8,6 +8,11 @@
             ~T (); // Destructeur éventuellement virtuel
             T &operator=(const T&); // Operator d'affectation
     };
+If you have **circular dependencies** (per example, Class A involves Class B objects and Class B involves Class A), you need to include the class as such:
+
+    #include "AnotherFile.hpp"
+
+    class OtherClass;
 ## Attributes
 ### public
 Members (variables and functions) declared as **public** are accessible from anywhere, both inside and outside the class.
