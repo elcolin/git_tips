@@ -8,6 +8,14 @@
             ~T (); // Destructeur éventuellement virtuel
             T &operator=(const T&); // Operator d'affectation
     };
+## Attributes
+### public
+Members (variables and functions) declared as **public** are accessible from anywhere, both inside and outside the class.
+### private
+Members declared as **private** are only accessible within the class that defines them.
+### protected
+Members declared as **protected** are accessible within the class that defines them and within derived classes (cf inheritance).
+
 ## References
 Use references when you want to avoid copying data and work on the original object:
 
