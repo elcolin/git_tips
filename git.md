@@ -1,14 +1,14 @@
 # git
 Tips and use of git.
 
-## Remote
-
+## Branch
 Two Repositories: **team** and **personal**
 I wish to synchronize my personal git with my branch on my team project.
 A branch needs to be created in our team repo:
 
     git branch ecolin
 The "ecolin" branch will be created.
+## Remote
 Get into the personal repo and add a remote:
 
     git remote add team https://github.com/elcolin/team
@@ -28,7 +28,7 @@ Then you can create a tracking relationship between your main branch on your per
     git branch --set-upstream-to=team/ecolin main
 
 You won't have to specify the remote each time you push.
-
+## Push
 To push on your team repo and branch:
 
     git push team HEAD:ecolin
