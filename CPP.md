@@ -126,3 +126,18 @@ Inheritance allows a class to have a parent class. It will inherit all attribute
             // Provide an implementation for the pure virtual function
         }
     };
+
+### Inheritance Constructor
+
+    class BaseClass {
+        protected:
+            std::string name;
+            std::string type;
+        public:
+            BaseClass(std::string name, std::string type);
+    }
+
+    class ChildClass : public BaseClass {
+        public:
+            ChildClass(): BaseClass("a certain name", "a certain type"){}
+    }
