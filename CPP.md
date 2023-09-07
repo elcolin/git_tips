@@ -32,8 +32,8 @@ When a class has an object declared as a reference, its value need to be initiat
 
     class RandomClass{
         private:
-            std::string first;
-            std::string second;
+            std::string &first;
+            std::string &second;
         public:
             RandomClass(std::string &s1, std::string &s2);
     };
