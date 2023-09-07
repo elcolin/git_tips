@@ -91,3 +91,13 @@ If a class contains a **pure virtual function** it will create a **Abstract clas
         virtual void pureVirtualFunction() = 0; // Pure virtual function
     };
 Which means that AbstractClass cannot exist by itself, it needs to be inherited in a derived class that will define pureVirtualFunction().
+
+## Inheritance
+Inheritance allows a class to have a parent class. It will inherit all attributes from that said class. Functions defined with the virtual keyword can be overriden and pure virtual function need to be implemented.
+
+    class ConcreteClass : public AbstractClass {
+    public:
+        void pureVirtualFunction() override {
+            // Provide an implementation for the pure virtual function
+        }
+    };
