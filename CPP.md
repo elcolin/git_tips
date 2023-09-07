@@ -27,6 +27,18 @@ Use references when you want to avoid copying data and work on the original obje
     void modifyValue(int& x) {
         x = x * 2;
     }
+
+When a class has an object declared as a reference, its value need to be initiated, it can be done as such:
+
+    class RandomClass{
+        private:
+            std::string &first;
+            std::string &second;
+        public:
+            RandomClass(std::string &s1, std::string &s2);
+    };
+
+    RandomClass(std::string &s1, std::string &s2) : first(s1), second(s2) {}
 ## const
 ### const variables
 Use const when you want to guarantee the object won't be modified.
