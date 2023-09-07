@@ -1,6 +1,5 @@
 # CPP
-## Classes
-### Coplien Form
+## Coplien Form
     class T
     {
         public:
