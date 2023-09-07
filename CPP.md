@@ -90,3 +90,4 @@ If a class contains a **pure virtual function** it will create a **Abstract clas
     public:
         virtual void pureVirtualFunction() = 0; // Pure virtual function
     };
+Which means that AbstractClass cannot exist by itself, it needs to be inherited in a derived class that will define pureVirtualFunction().
