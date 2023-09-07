@@ -58,3 +58,27 @@ Use const to indicate that the function won't modify the object, allowing you to
                 return msg;
             }
     };
+## virtual
+**virtual** keyword is used for polymorphism. Polymorphism allows objects of different classes that inherit from a common base class to be treated as objects of the base class. It enables you to write code that can work with objects of different derived classes through pointers or references to the base class.
+
+    class Shape {
+    public:
+        virtual void draw() {
+            // Base class implementation
+        }
+    };
+
+    class Circle : public Shape {
+    public:
+        void draw() override {
+            // Derived class implementation
+        }
+    };
+
+    int main() {
+        Shape* shapePtr;
+        Circle circle;
+
+        shapePtr = &circle;
+        shapePtr->draw(); // Calls the draw() method of Circle
+    }
