@@ -160,3 +160,11 @@ Inheritance allows a class to have a parent class. It will inherit all attribute
 An **iterator** is an object that provides a way to access the elements of a container (such as an array, vector, list, set, or map) sequentially without exposing the underlying data structure.
 
     container_type::iterator iterator_name;
+
+Example with vector:
+
+    std::vector<int>::iterator myVectorIterator;
+
+Then you can initialize it at the beginning of your container:
+
+    it = myVector.begin(); // Initialize to the beginning of the vector
