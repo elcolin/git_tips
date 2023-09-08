@@ -152,3 +152,11 @@ Inheritance allows a class to have a parent class. It will inherit all attribute
         public:
             ChildClass(): BaseClass("a certain name", "a certain type"){}
     }
+
+## containers
+
+
+### iterators
+An **iterator** is an object that provides a way to access the elements of a container (such as an array, vector, list, set, or map) sequentially without exposing the underlying data structure.
+
+    container_type::iterator iterator_name;
