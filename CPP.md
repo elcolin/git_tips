@@ -59,7 +59,18 @@ Use const to indicate that the function won't modify the object, allowing you to
     private:
         int data;
     };
-    
+
+## new
+**new** keyword is used for dynamic memory allocation, it returns a pointer to the object.
+
+    MyClass* obj = new MyClass; // Dynamically allocate an object of MyClass
+
+## delete
+**delete** keyword releases the memory of a dynamic allocation.
+
+    delete obj;           // Release memory for a single object
+    delete[] dynamicArray; // Release memory for an array
+
 ## exception
 ### basic exception
     class BasicException : public std::exception
