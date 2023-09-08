@@ -128,7 +128,7 @@ If a class contains a **pure virtual function** it will create a **Abstract clas
     };
 Which means that AbstractClass cannot exist by itself, it needs to be inherited in a derived class that will define pureVirtualFunction().
 
-Don't forget to declare the destructor as virtual in the abstract class for the derived classes to have its own destructor:
+Don't forget to declare the destructor as virtual in the abstract class for the derived classes to have their own destructor:
 
     virtual ~AbstractClass();
 
