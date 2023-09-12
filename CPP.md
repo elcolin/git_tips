@@ -159,6 +159,13 @@ Inheritance allows a class to have a parent class. It will inherit all attribute
 
 ## containers
 
+### map
+**map** is a key value based container. It requires an ID to access its value.
+
+        #include <map>
+
+        std::map<KeyType, ValueType> mapName;
+
 
 ### iterators
 An **iterator** is an object that provides a way to access the elements of a container (such as an array, vector, list, set, or map) sequentially without exposing the underlying data structure.
