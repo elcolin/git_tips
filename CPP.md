@@ -167,12 +167,35 @@ Inheritance allows a class to have a parent class. It will inherit all attribute
         std::map<KeyType, ValueType> mapName;
 
 #### Adding new elements
-Insert or update key-value pairs using the subscript operator
     std::map<std::string, int> myMap;
+
+Insert or update key-value pairs using the subscript operator
+
     myMap["apple"] = 5;
     myMap["apple"] = 10;
     myMap["banana"] = 15;
 
+
+Insert a new key-value pair
+
+    myMap.insert(std::make_pair("apple", 5));
+
+    // Update the value associated with an existing key
+    myMap.insert(std::make_pair("apple", 10));
+
+    // Check if the insertion was successful
+    std::pair<std::map<std::string, int>::iterator, bool> result = myMap.insert(std::make_pair("banana", 15));
+
+    if (result.second) {
+        std::cout << "Successfully inserted: " << result.first->first << " - " << result.first->second << std::endl;
+    } else {
+        std::cout << "Insertion failed. Key already exists." << std::endl;
+    }
+
+Insert a new key-value pair using emplace
+
+    myMap.emplace("apple", 5);
+    myMap.emplace("banana", 10);
 
 ### iterators
 An **iterator** is an object that provides a way to access the elements of a container (such as an array, vector, list, set, or map) sequentially without exposing the underlying data structure.
