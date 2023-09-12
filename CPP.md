@@ -197,6 +197,12 @@ Insert a new key-value pair using emplace
     myMap.emplace("apple", 5);
     myMap.emplace("banana", 10);
 
+#### Check if an element exists on a map
+    std::map<std::string, int>::iterator it = map.find(key);
+	    if (it != map.end())
+             //element exists
+    
+
 ### iterators
 An **iterator** is an object that provides a way to access the elements of a container (such as an array, vector, list, set, or map) sequentially without exposing the underlying data structure.
 
