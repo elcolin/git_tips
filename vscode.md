@@ -1,6 +1,6 @@
 # VSCODE
 
-## Shortcuts Linux
+## Shortcuts Linux editor
 ### Search occurrences in all files
     CTRL + SHIFT + F
 ### Search occurrences in file
@@ -15,3 +15,15 @@
     ALT + <Top arrow>/<Bottom arrow>
 ### Add empty line above current line
     CTRL + SHIFT + ENTER
+    
+## Shortcuts Linux file navigation
+### Create new file
+    CTRL + N
+### Open file
+    CTRL + O
+### Open next file
+    CTRL + TAB
+### Open previous file
+    CTRL + SHIFT + TAB
+### Open recently closed file
+    CTRL + SHIFT + T
