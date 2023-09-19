@@ -27,3 +27,7 @@
     CTRL + SHIFT + TAB
 ### Open recently closed file
     CTRL + SHIFT + T
+
+## Shortcuts Linux windows
+### Open new terminal
+    CTRL + SHIFT + `
