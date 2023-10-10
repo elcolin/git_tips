@@ -43,5 +43,12 @@ To push on your base repo:
     git merge --abort
 
 ### Accept incoming changes ignoring current
+ Go on the target branch you want to merge
+
+    git checkout <target-branch>
+Use the git merge command with the --no-commit option to avoid committing the merge immediately, and specify the branch you want to merge (source branch):
+
+    git merge --no-commit <source-branch>
+Use git checkout to accept all incoming changes from the source branch ("theirs" strategy):
 
     git checkout --theirs .
