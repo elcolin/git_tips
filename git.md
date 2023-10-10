@@ -36,3 +36,12 @@ To push on your team repo and branch:
 To push on your base repo:
 
     git push origin
+    
+## Merge
+
+### Cancel a merge
+    git merge --abort
+
+### Accept incoming changes ignoring current
+
+    git checkout --theirs .
