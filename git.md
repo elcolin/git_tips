@@ -56,3 +56,10 @@ Use the git merge command with the --no-commit option to avoid committing the me
 Use git checkout to accept all incoming changes from the source branch ("theirs" strategy):
 
     git checkout --theirs .
+
+## Reset
+
+### Discard local changes to previous commit
+    git reset --hard <commit>
+
+**Make sure to git push --force**
