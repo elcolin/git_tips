@@ -36,6 +36,10 @@ To push on your team repo and branch:
 To push on your base repo:
 
     git push origin
+
+### Force push (ignoring pull)
+
+    git push --force <remote> <local-branch>:<remote-branch>
     
 ## Merge
 
