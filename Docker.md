@@ -12,9 +12,12 @@ On **Linux**
 ## Stop Container
 **TODO**
 # docker-compose
-Build image + launch
+## Build image + launch
 
     docker-compose -f docker-compose.yml up -d --build
+## Stop container
+
+    docker-compose -f docker-compose.yml down
 ## Frequent errors
 
 ### Pulling image
