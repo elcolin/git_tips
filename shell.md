@@ -12,6 +12,9 @@ Displaying the differences between an output and a text file:
 
     diff <(./a.out) output.txt
 # ITerm
-## Broadcast input to all panels in current tab
+## Broadcast input to all panels in current tabs
 
-    OPTION + COMMAND + I
+    OPTION + CMD + I
+## toggle tab
+    CMD + <left arrow>
+    CMD + <right arrow>
