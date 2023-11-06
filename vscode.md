@@ -7,6 +7,8 @@
     CTRL + F
 ### Select all ocurrences in said file
     CTRL + SHIFT + L
+### Replace all in all files
+    CTRL + SHIFT + H
 ### Copy line
     CTRL + C
 ### Cut line
