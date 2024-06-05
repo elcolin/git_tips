@@ -22,6 +22,9 @@
     7 File formats, conventions, and encodings (ASCII, suffixes, and so on)
     8 System commands and servers
 
+## Redirect error in file
+    command 2> file
+
 ## Treat an output as file
     <(...)
 Example:
