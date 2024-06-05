@@ -11,6 +11,17 @@
     CTRL-K Erase from cursor to end of line
     CTRL-Y Paste erased text (for example, from CTRL-U)
 
+## man
+ # Sections
+    1 User commands
+    2 Kernel system calls
+    3 Higher-level Unix programming library documentation
+    4 Device interface and driver information
+    5 File descriptions (system configuration files)
+    6 Games
+    7 File formats, conventions, and encodings (ASCII, suffixes, and so on)
+    8 System commands and servers
+
 ## Treat an output as file
     <(...)
 Example:
