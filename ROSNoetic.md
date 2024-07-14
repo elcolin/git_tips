@@ -13,3 +13,8 @@ rosnode ping [node name]
 	pings the node
 rosrun rqt_graph rqt_graph
 	creates a graph of nodes
+rostopic echo nodename
+	
+rostopic info nodename
+	to see publisher and subscribers of the topic
+Anonymous nodes! ros::init options
