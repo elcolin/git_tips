@@ -17,4 +17,7 @@ rostopic echo nodename
 	
 rostopic info nodename
 	to see publisher and subscribers of the topic
+# Code
 Anonymous nodes! ros::init options
+
+	ros::init(argc, argv, "talker", ros::init_options::AnonymousName);
