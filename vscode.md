@@ -29,6 +29,11 @@
     CTRL + SHIFT + TAB
 ### Open recently closed file
     CTRL + SHIFT + T
+    
+### Palette de Commandes
+    Ctrl + Shift + P (ou Cmd + Shift + P sur macOS) 
+pour ouvrir la palette de commandes et rechercher une fonctionnalité. Tapez > suivi du nom de la commande pour voir les options disponibles. Par exemple, >Remote-SSH: Connect to Host pour rechercher une connexion SSH.
+
 
 ## Shortcuts Linux windows
 ### Open new terminal
